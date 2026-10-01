@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClipBaB · 요리 영상 레시피 노트</title>
+<meta name="description" content="유튜브 요리 영상을 레시피 카드로 정리하고, 해먹은 요리를 기록하는 앱">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #60646c; --accent: #d9480f; --card: #fff0e6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111113; --text: #f2f2f4; --muted: #b0b4ba; --accent: #ff8a4c; --card: #3a2114; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; line-height: 1.6; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  .hero { text-align: center; }
+  .hero img { width: 112px; height: 112px; border-radius: 24px; }
+  h1 { font-size: 40px; margin: 16px 0 4px; letter-spacing: -0.5px; }
+  .tagline { font-size: 18px; color: var(--muted); margin: 0 0 32px; }
+  ul.features { list-style: none; padding: 0; display: grid; gap: 12px; }
+  ul.features li { background: var(--card); border-radius: 14px; padding: 14px 16px; }
+  ul.features strong { display: block; }
+  footer { margin-top: 40px; font-size: 14px; color: var(--muted); text-align: center; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="icon.png" alt="ClipBaB 아이콘">
+    <h1>ClipBaB</h1>
+    <p class="tagline">요리 영상을 레시피 카드로, 해먹은 요리는 기록으로</p>
+  </div>
+  <ul class="features">
+    <li><strong>링크 하나로 레시피 정리</strong>유튜브에서 [공유] → ClipBaB. 재료, 분량, 조리 순서를 정리해 드려요.</li>
+    <li><strong>영상의 그 장면으로 바로</strong>조리 단계를 누르면 유튜브의 해당 장면으로 이동해요.</li>
+    <li><strong>나만의 요리 기록장</strong>해먹은 날짜, 별점, 메모를 남기고 재료나 메모로 다시 찾아요.</li>
+    <li><strong>가입 없이 바로</strong>레시피와 기록은 내 폰에만 저장돼요.</li>
+  </ul>
+  <footer>
+    <a href="privacy.html">개인정보처리방침 · Privacy Policy</a><br>
+    문의: <a href="mailto:clipbab.whitelhg@gmail.com">clipbab.whitelhg@gmail.com</a><br>
+    © 2026 ClipBaB
+  </footer>
+</main>
+</body>
+</html>
